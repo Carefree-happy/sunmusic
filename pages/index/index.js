@@ -5,14 +5,21 @@ Page({
    * Page initial data
    */
   data: {
-
+    msg: "初始化测试数据"
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
+    // 修改msg的数据，语法：this.setData
+    setTimeout(() => {
+      this.setData({
+        msg: "美丽的田野"
+      }),
+      console.log(this.data.msg)
+    }, 2000)
+    console.log(this.data.msg)
   },
 
   /**
