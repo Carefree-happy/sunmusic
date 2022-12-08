@@ -1,7 +1,7 @@
 <view class="indexContainer">
   <image class="avatarUrl" src="/static/images/nvsheng.jpg" mode=""/>
   <text class="userName">{{msg}}</text>
-  <view class="goStudy">
-    <text>Hello SmallProgram</text>
+  <view class="goStudy" bindtap="handleParent">
+    <text bindtap="toLogs">Hello SmallProgram</text>
   </view>
 </view>
