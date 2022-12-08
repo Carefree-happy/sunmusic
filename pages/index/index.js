@@ -18,7 +18,7 @@ Page({
 
   toLogs() {
     wx.navigateTo({
-      url: '/pages/log/logs',
+      url: '/pages/image/images',
     })
   },
 
