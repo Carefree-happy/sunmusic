@@ -1,0 +1,15 @@
+<!--pages/carousel/index.wxml-->
+<view class="carouselContainer">
+  <!-- carousel -->
+  <swiper class="content" indicator-dots indicator-color="white" indicator-active-color="red">
+    <swiper-item class="contentItem">
+      <image src="/static/images/nvsheng.jpg" />
+    </swiper-item>
+    <swiper-item class="contentItem">
+      <image src="/static/images/nvsheng.jpg" />
+    </swiper-item>
+    <swiper-item class="contentItem">
+      <image src="/static/images/nvsheng.jpg" />
+    </swiper-item>
+  </swiper>
+</view>
