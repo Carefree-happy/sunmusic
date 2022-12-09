@@ -1,0 +1,23 @@
+/* pages/login/login.wxss */
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.InfoGetButton {
+  margin: 100px 0;
+}
+
+.UserAvator {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+}
+
+.UserName {
+  margin: 50px 0;
+  text-align: center;
+}

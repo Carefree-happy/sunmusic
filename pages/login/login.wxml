@@ -1,0 +1,10 @@
+<!--pages/login/login.wxml-->
+<view class="loginPage">
+  <view class="InfoGetButton">
+    <image wx:if="{{userInfo.avatarUrl}}" class="UserAvator" src="{{userInfo.avatarUrl}}"></image>
+    <button wx:if="{{!userInfo.avatarUrl}}" bindgetuserinfo="handleUserInfo" open-type="getUserInfo">获取用户信息</button>
+    <view class="UserName">
+      <text>{{userInfo.nickName}}</text>
+    </view>
+  </view>
+</view>
