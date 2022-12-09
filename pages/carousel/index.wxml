@@ -36,4 +36,47 @@
       <text>直播</text>
     </view>
   </view>
+
+  <!-- header recommend -->
+  <view class="recommendContainer">
+    <view class="recommendHeader">
+      <text class="recommendTitle">推荐歌曲</text>
+      <view>
+        <text>为你推荐更多</text>
+        <text class="recommendMore">查看更多</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- content recommend -->
+  <scroll-view class="recommendScroll" enable-flex scroll-x>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg" mode=""/>
+      <text>我喜欢贾静雯，贾静雯也喜欢我wowow</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg" mode=""/>
+      <text>我喜欢贾静雯，贾静雯也喜欢我</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg" mode=""/>
+      <text>我喜欢贾静雯，贾静雯也喜欢我</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg" mode=""/>
+      <text>我喜欢贾静雯，贾静雯也喜欢我</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg" mode=""/>
+      <text>我喜欢贾静雯，贾静雯也喜欢我</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg" mode=""/>
+      <text>我喜欢贾静雯，贾静雯也喜欢我</text>
+    </view>
+    <view class="scrollItem">
+      <image src="/static/images/nvsheng.jpg" mode=""/>
+      <text>我喜欢贾静雯，贾静雯也喜欢我</text>
+    </view>
+  </scroll-view>
 </view>
